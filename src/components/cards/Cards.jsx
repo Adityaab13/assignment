@@ -1,10 +1,14 @@
 import React from 'react';
-import './cards.css';
+// import './card.css';
 
-const Cards = () => {
+const Card = ({name, course}) => {
+  // const listItems = subtasks.map((subtask) =>  <li>{subtask}</li>);
   return (
-    <div>Cards</div>
+      <div>
+        {name}: {course}
+        {/* <ul>{listItems}</ul> */}
+      </div>  
   )
 }
 
-export default Cards
+export default Card

@@ -1,11 +1,15 @@
 import React from 'react';
-import './card.css';
+// import './card.css';
 
-const Card = () => {
+// const listItems = (subtasks) => subtasks.map((subtask) =>  <li>{subtask}</li>);
+
+const Card = ({name, course}) => {
+  
   return (
-    <div>
-      card
-    </div>
+      <div>
+        {name}: {course}
+        {/* <ul>{listItems(subtasks)}</ul> */}
+      </div>  
   )
 }
 
